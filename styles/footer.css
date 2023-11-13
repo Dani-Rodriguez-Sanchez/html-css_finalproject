@@ -1,0 +1,34 @@
+.footer { 
+  background-color: rgb(88, 85, 85);
+  height: 100%;
+}
+  
+.footer > .nav-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.footer > .nav-link-wrapper > .nav-link {
+	  border: 2px solid #676767;
+	  padding: 16px 61px;
+
+}
+
+.footer > .nav-link-wrapper > .nav-link a {
+  font-size: 15px;
+  color: white;
+	text-decoration: none;
+
+}
+
+.footer > .nav-link-wrapper > .nav-link a span {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.4rem;
+ 
+}
+
+.footer > .nav-link-wrapper > .nav-link a:hover {
+	color: yellow;
+}

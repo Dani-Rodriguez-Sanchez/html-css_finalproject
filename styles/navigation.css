@@ -1,0 +1,75 @@
+.navigation-wrapper {
+    height: 60px;
+    background-color: black;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navigation-wrapper > .codepen-logo > img {
+    width: 200px;
+    height: 100%;
+}
+
+.navigation-wrapper > .explore-wrapper {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+.navigation-wrapper > .explore-wrapper > .links-wrapper-header p{
+    color: #ffdd40;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 0px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    width: 360px;
+}
+
+.links-wrapper > .nav-links a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.links-wrapper > .nav-links a:hover{
+    color: #ffdd40;    
+}
+
+.explore-wrapper > .links-wrapper > .spark-link a{
+    background-color: black;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Roboto Mono', sans-serif;
+    padding-left: 20px;
+    text-decoration: none;
+    
+}
+.explore-wrapper > .links-wrapper > .spark-link a:hover{
+    color: #ffdd40;
+    letter-spacing: .5px;
+}
+
+.links-wrapper > .spark-link i {
+	margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.navigation-wrapper > .login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

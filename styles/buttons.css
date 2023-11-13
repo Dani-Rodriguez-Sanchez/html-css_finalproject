@@ -1,0 +1,81 @@
+.grey-button {
+	background-color: #3D3E43;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.grey-button a{
+    font-size: 1rem; 
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.grey-button i {
+	color: greenyellow;
+	font-size: 1.2em;
+}
+
+.grey-button:hover {
+	background-color: #5a5f73;
+	cursor: pointer;
+}
+
+.login-wrapper > .searchbar {
+    background-color: black;
+    width: 45px;
+}
+
+.login-wrapper > .searchbar:hover {
+    font-size: 1.2em;
+}
+
+.login-wrapper >.searchbar i{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.green-button {
+	background-color: rgb(80, 132, 80);
+    color: white;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.green-button:hover {
+    
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.black-button {
+	background-color: black;
+    color: white;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.black-button:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
